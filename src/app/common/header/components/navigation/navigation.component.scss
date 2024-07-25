@@ -1,0 +1,27 @@
+@import "../../../../../styles/variables.scss";
+
+.navigation-list-container {
+  display: flex;
+  list-style: none;
+
+  >:not(:last-child) {
+    margin-right: 8px
+  }
+}
+
+
+button {
+  @extend %defaultButton;
+  @extend %mainFont14;
+  color: $core-grey-60;
+  font-weight: 600;
+
+  &.active-route {
+    color: $core-grey-80;
+  }
+
+  &:hover {
+    color: $core-blue;
+    cursor: pointer;
+  }
+}
