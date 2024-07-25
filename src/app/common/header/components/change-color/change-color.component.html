@@ -1,0 +1,9 @@
+<button *ngIf="isLightThemeActivate; else darkBtn" (click)="change()">
+  <i class="pi pi-sun" style="font-size: 1rem"></i>
+</button>
+
+<ng-template #darkBtn>
+  <button (click)="change()">
+    <i class="pi pi-moon" style="font-size: 1rem"></i>
+  </button>
+</ng-template>

@@ -1,0 +1,34 @@
+$baseFontSize: 20px;
+
+$core-grey-80: #414148;
+$core-grey-60: #7d7f86;
+$core-grey-40: #dadbdf;
+
+$core-blue: #1136b6;
+
+%normalFontStyle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
+
+%mainFont14 {
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+%regularFont13 {
+  font-family: Roboto;
+  font-size: 13px;
+}
+
+%defaultButton {
+  background: none;
+  border: none;
+}
+
+
+
+
+
+
